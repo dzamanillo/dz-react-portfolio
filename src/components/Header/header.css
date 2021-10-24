@@ -1,0 +1,27 @@
+.header {
+	border: 3px solid blue;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	justify-self: start;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	margin-inline: 2rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
