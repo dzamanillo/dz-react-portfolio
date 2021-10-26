@@ -1,16 +1,19 @@
 import React from "react";
+import NavTabs from "../Nav";
 import "./header.css";
 
 function Header() {
 	return (
 		<div className="header">
-			<header>
+			<h1>Daniel Zamanillo</h1>
+			<NavTabs />
+			{/* <header>
 				<h1>Daniel Zamanillo</h1>
 				<nav>
 					<ul>
 						<li>
 							<a href="/">
-								<h2>About Me</h2>
+								<h2>About</h2>
 							</a>
 						</li>
 						<li>
@@ -30,7 +33,7 @@ function Header() {
 						</li>
 					</ul>
 				</nav>
-			</header>
+			</header> */}
 		</div>
 	);
 }

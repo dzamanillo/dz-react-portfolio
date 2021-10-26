@@ -1,0 +1,9 @@
+.projectContainer {
+	border: 3px solid yellow;
+}
+
+.contactForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
