@@ -1,12 +1,14 @@
 import Header from "./components/Header";
-import ProjectContainer from "./components/ProjectContainer";
+// import About from "./components/About";
+// import Contact from "./components/Contact";
+// import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<div>
 			<Header />
-			<ProjectContainer />
+
 			<Footer />
 		</div>
 	);

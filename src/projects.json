@@ -1,0 +1,18 @@
+// {
+//     "id": 1,
+//     name: "Virtual Guardian",
+//     description:
+//         "Full Stack Group Project with Focus on Sequelize and Handlebars",
+//     img: "public/assets/images/vg_screen.png",
+//     gitLink: "https://github.com/gadaell/Password-Manager",
+//     deployLink: "https://password-manager-gadaell.herokuapp.com/",
+// },
+// {
+//     id: 2,
+//     name: "W",
+//     description:
+//         "Full Stack Group Project with Focus on Sequelize and Handlebars",
+//     img: "public/assets/images/vg_screen.png",
+//     gitLink: "https://github.com/gadaell/Password-Manager",
+//     deployLink: "https://password-manager-gadaell.herokuapp.com/",
+// },
