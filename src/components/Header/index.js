@@ -18,24 +18,24 @@ function Header() {
 					<nav>
 						<ul>
 							<li>
-								<button onClick={handleClick}>
+								<div onClick={handleClick}>
 									<h2>About</h2>
-								</button>
+								</div>
 							</li>
 							<li>
-								<button onClick={handleClick}>
+								<div onClick={handleClick}>
 									<h2>Portfolio</h2>
-								</button>
+								</div>
 							</li>
 							<li>
-								<button onClick={handleClick}>
+								<div onClick={handleClick}>
 									<h2>Contact</h2>
-								</button>
+								</div>
 							</li>
 							<li>
-								<button>
+								<a href="https://docs.google.com/document/d/1h6ijdHJdwup88T4No8lVcwiU2PYd7FkM48E0lNe5ILs/edit?usp=sharing">
 									<h2>Resume</h2>
-								</button>
+								</a>
 							</li>
 						</ul>
 					</nav>
