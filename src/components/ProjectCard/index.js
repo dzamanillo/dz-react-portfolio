@@ -5,7 +5,7 @@ import "./card.css";
 
 function ProjectCard({ id, name, description, img, gitLink, deployLink }) {
 	return (
-		<div key={id}>
+		<div key={id} className="space">
 			<Card className="card" style={{ width: "18rem" }}>
 				<Card.Img variant="top" src={img} />
 				<Card.Body>
