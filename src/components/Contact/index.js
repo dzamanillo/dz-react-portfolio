@@ -1,26 +1,23 @@
 import React from "react";
-import "./contact.css";
+import Form from "react-bootstrap/Form";
 
 function Contact() {
 	return (
 		<div>
-			<form className="contactForm">
-				<div>
-					<label htmlFor="name">Name:</label>
-					<br />
-					<input type="text" name="name" id="name" />
-				</div>
-				<div>
-					<label htmlFor="email">Email Address:</label>
-					<br />
-					<input type="email" name="email" id="email" />
-				</div>
-				<div>
-					<label htmlFor="message">Message:</label>
-					<br />
-					<textarea cols="30" rows="10" id="message"></textarea>
-				</div>
-			</form>
+			<Form className="p-3">
+				<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+					<Form.Label>Name</Form.Label>
+					<Form.Control type="text" placeholder="Name" />
+				</Form.Group>
+				<Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+					<Form.Label>Email address</Form.Label>
+					<Form.Control type="email" placeholder="name@example.com" />
+				</Form.Group>
+				<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+					<Form.Label>Message</Form.Label>
+					<Form.Control as="textarea" rows={3} />
+				</Form.Group>
+			</Form>
 		</div>
 	);
 }

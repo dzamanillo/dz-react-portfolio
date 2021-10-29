@@ -2,10 +2,9 @@ import React from "react";
 import About from "../About";
 import Contact from "../Contact";
 import Portfolio from "../Portfolio";
+import "./main.css";
 
 function Main(props) {
-	console.log(props);
-
 	const renderHandle = (param) => {
 		switch (param) {
 			// case "About":
@@ -19,7 +18,7 @@ function Main(props) {
 		}
 	};
 
-	return <div>{renderHandle(props.currentPage)}</div>;
+	return <div className="main">{renderHandle(props.currentPage)}</div>;
 }
 
 export default Main;

@@ -7,7 +7,7 @@ function Portfolio() {
 	console.log(projects);
 
 	return (
-		<div className="portfolio">
+		<div className="d-flex justify-content-center flex-wrap container">
 			{projects.map((project) => {
 				return (
 					<ProjectCard

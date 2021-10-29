@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
 	return (
-		<div>
+		<div className="container about">
 			<h3>Adapt. Optimize. Grow.</h3>
 			<p>
 				I am a web developer focused on helping people do just that. My mission
