@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dz-react-portfolio/static/css/main.bb6df7d2.chunk.css",
+    "main.js": "/dz-react-portfolio/static/js/main.1b3f6980.chunk.js",
+    "main.js.map": "/dz-react-portfolio/static/js/main.1b3f6980.chunk.js.map",
+    "runtime-main.js": "/dz-react-portfolio/static/js/runtime-main.2bbb66ee.js",
+    "runtime-main.js.map": "/dz-react-portfolio/static/js/runtime-main.2bbb66ee.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/dz-react-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.04e3b009.chunk.js": "/dz-react-portfolio/static/js/2.04e3b009.chunk.js",
+    "static/js/2.04e3b009.chunk.js.map": "/dz-react-portfolio/static/js/2.04e3b009.chunk.js.map",
+    "static/js/3.df4af2e6.chunk.js": "/dz-react-portfolio/static/js/3.df4af2e6.chunk.js",
+    "static/js/3.df4af2e6.chunk.js.map": "/dz-react-portfolio/static/js/3.df4af2e6.chunk.js.map",
+    "index.html": "/dz-react-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/dz-react-portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.bb6df7d2.chunk.css.map": "/dz-react-portfolio/static/css/main.bb6df7d2.chunk.css.map",
+    "static/js/2.04e3b009.chunk.js.LICENSE.txt": "/dz-react-portfolio/static/js/2.04e3b009.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/dz-react-portfolio/static/media/pexels-matt-hardy-3560168.717046e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bbb66ee.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.04e3b009.chunk.js",
+    "static/css/main.bb6df7d2.chunk.css",
+    "static/js/main.1b3f6980.chunk.js"
+  ]
+}
