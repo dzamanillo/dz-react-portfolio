@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"name": "Virtual Guardian",
+		"description": "Full Stack Group Project with Focus on Sequelize and Handlebars",
+		"img": "/assets/images/vg_screen.png",
+		"gitLink": "https://github.com/gadaell/Password-Manager",
+		"deployLink": "https://password-manager-gadaell.herokuapp.com/"
+	},
+	{
+		"id": 2,
+		"name": "Weather Dashboard",
+		"description": "Front End Project With a Focus on Using 3rd Party API's",
+		"img": "/assets/images/WD-screenshot.png",
+		"gitLink": "https://github.com/dzamanillo/weather-dashboard-dz",
+		"deployLink": "https://dzamanillo.github.io/weather-dashboard-dz/"
+	},
+	{
+		"id": 3,
+		"name": "Periodic Table of Breaking Bad",
+		"description": "Front End Group Project With Focus on Working with 3rd PartyAPI's and Managing a Project on GitHub",
+		"img": "/assets/images/PTBB-screenShot.png",
+		"gitLink": "https://github.com/dzamanillo/Period-Table-of-Breaking-Bad",
+		"deployLink": "https://dzamanillo.github.io/Period-Table-of-Breaking-Bad/"
+	},
+	{
+		"id": 4,
+		"name": "Password Generator",
+		"description": "Front End Project With Focus on Various Array Methods",
+		"img": "/assets/images/PWG-screenshot.png",
+		"gitLink": "https://github.com/dzamanillo/password-gen",
+		"deployLink": "https://dzamanillo.github.io/password-gen/"
+	},
+	{
+		"id": 5,
+		"name": "Deep Thoughts",
+		"description": "Full CRUD blog built with Node, GraphQL and React",
+		"img": "/assets/images/DT-image.png",
+		"gitLink": "https://github.com/dzamanillo/deep-thoughts",
+		"deployLink": "https://deep-thoughts-dz.herokuapp.com/"
+	},
+	{
+		"id": 6,
+		"name": "Food Festival",
+		"description": "PWA for Festival Event Build Includes Webpack ",
+		"img": "/assets/images/FF-image.png",
+		"gitLink": "https://github.com/dzamanillo/food-festival",
+		"deployLink": "https://dzamanillo.github.io/food-festival/"
+	}
+]
