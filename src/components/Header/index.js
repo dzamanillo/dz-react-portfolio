@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Main from "../Main";
 import "./header.css";
-import Nav from "react-bootstrap/Nav";
 
 function Header() {
 	const [currentPage, setCurrentPage] = useState("About");
@@ -63,13 +62,9 @@ function Header() {
 									</li>
 									<li class="nav-item">
 										<a
-											className={
-												currentPage === "Resume"
-													? " nav-link active"
-													: "nav-link"
-											}
-											href="./assets/pdf/DanielZamanilloResume.pdf"
-											onClick={handleClick}
+											className="nav-link"
+											href="https://docs.google.com/document/d/1h6ijdHJdwup88T4No8lVcwiU2PYd7FkM48E0lNe5ILs/edit?usp=sharing"
+											target="_blank"
 										>
 											Resume
 										</a>
