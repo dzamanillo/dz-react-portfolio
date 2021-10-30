@@ -8,18 +8,85 @@ function Header() {
 
 	const handleClick = (event) => {
 		event.preventDefault();
-		console.log(event.target.innerHTML);
 		setCurrentPage(event.target.innerHTML);
 	};
 
 	return (
 		<div>
-			<div className="header ">
+			<div className="header d-flex justify-content-center">
 				<header>
-					<h1 className="m-3">Daniel Zamanillo</h1>
-					<Nav className="nav-bar" /*variant="" defaultActiveKey="/about"*/>
+					<h1 className="text-align-center my-2">Daniel Zamanillo</h1>
+
+					<nav class="navbar navbar-expand-lg navbar-light my-2">
+						<div class="container-fluid">
+							<div class="" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a
+											className={
+												currentPage === "About"
+													? " nav-link active"
+													: "nav-link"
+											}
+											aria-current="page"
+											href="/"
+											onClick={handleClick}
+										>
+											About
+										</a>
+									</li>
+									<li class="nav-item">
+										<a
+											className={
+												currentPage === "Portfolio"
+													? " nav-link active"
+													: "nav-link"
+											}
+											href="/"
+											onClick={handleClick}
+										>
+											Portfolio
+										</a>
+									</li>
+									<li class="nav-item">
+										<a
+											className={
+												currentPage === "Contact"
+													? " nav-link active"
+													: "nav-link"
+											}
+											href="/"
+											onClick={handleClick}
+										>
+											Contact
+										</a>
+									</li>
+									<li class="nav-item">
+										<a
+											className={
+												currentPage === "Resume"
+													? " nav-link active"
+													: "nav-link"
+											}
+											href="./assets/pdf/DanielZamanilloResume.pdf"
+											onClick={handleClick}
+										>
+											Resume
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					{/* <Nav className="nav-bar" variant="" defaultActiveKey="/about">
 						<Nav.Item>
-							<Nav.Link id="nav-item" onClick={handleClick} href="/about">
+							<Nav.Link
+								id="nav-item"
+								onClick={handleClick}
+								href="/about"
+								className={currentPage === "About" ? " active" : ""}
+							>
 								About
 							</Nav.Link>
 						</Nav.Item>
@@ -28,12 +95,18 @@ function Header() {
 								id="nav-item"
 								onClick={handleClick}
 								eventKey="/portfolio"
+								className={currentPage === "Portfolio" ? " active" : ""}
 							>
 								Portfolio
 							</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
-							<Nav.Link id="nav-item" onClick={handleClick} eventKey="/contact">
+							<Nav.Link
+								id="nav-item"
+								onClick={handleClick}
+								eventKey="/contact"
+								className={currentPage === "Contact" ? " active" : ""}
+							>
 								Contact
 							</Nav.Link>
 						</Nav.Item>
@@ -42,7 +115,7 @@ function Header() {
 								Resume
 							</Nav.Link>
 						</Nav.Item>
-					</Nav>
+					</Nav> */}
 				</header>
 			</div>
 			<Main currentPage={currentPage} />

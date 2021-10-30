@@ -1,28 +1,23 @@
 .header {
 	background-image: url(./pexels-matt-hardy-3560168.jpg);
 	background-size: cover;
-	height: 200px;
 	border: 1rem solid #284b63ff;
+	font-family: "Montserrat";
 }
 
-header {
+/* header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
+} */
 
 h1 {
 	color: #d9d9d9ff;
 	background-color: #3c6e71ff;
 	padding: 1rem;
-	justify-self: start;
+	/* justify-self: start; */
 }
 
-.nav-bar {
+.navbar {
 	background-color: #3c6e71ff;
-	padding: 1rem 2rem;
-}
-
-#nav-item {
-	color: #d9d9d9ff;
 }
