@@ -30,5 +30,21 @@
 		"img": "/assets/images/PWG-screenshot.png",
 		"gitLink": "https://github.com/dzamanillo/password-gen",
 		"deployLink": "https://dzamanillo.github.io/password-gen/"
+	},
+	{
+		"id": 5,
+		"name": "Deep Thoughts",
+		"description": "Full CRUD blog built with Node, GraphQL and React",
+		"img": "/assets/images/DT-image.png",
+		"gitLink": "https://github.com/dzamanillo/deep-thoughts",
+		"deployLink": "https://deep-thoughts-dz.herokuapp.com/"
+	},
+	{
+		"id": 6,
+		"name": "Food Festival",
+		"description": "PWA for Festival Event Build Includes Webpack ",
+		"img": "/assets/images/FF-image.png",
+		"gitLink": "https://github.com/dzamanillo/food-festival",
+		"deployLink": "https://dzamanillo.github.io/food-festival/"
 	}
 ]

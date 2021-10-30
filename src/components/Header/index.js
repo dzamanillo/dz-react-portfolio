@@ -15,10 +15,10 @@ function Header() {
 		<div>
 			<div className="header d-flex justify-content-center">
 				<header>
-					<h1 className="text-align-center my-2">Daniel Zamanillo</h1>
+					<h1 className="my-2">Daniel Zamanillo</h1>
 
 					<nav class="navbar navbar-expand-lg navbar-light my-2">
-						<div class="container-fluid">
+						<div class="container-fluid justify-content-center">
 							<div class="" id="navbarNav">
 								<ul class="navbar-nav">
 									<li class="nav-item">

@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 function Contact() {
 	return (
 		<div>
-			<Form className="p-3">
+			<Form className="m-5 p-5">
 				<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 					<Form.Label>Name</Form.Label>
 					<Form.Control type="text" placeholder="Name" />
